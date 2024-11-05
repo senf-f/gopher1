@@ -33,6 +33,7 @@ def save_data_to(csv_file, data):
         writer = csv.DictWriter(file, fieldnames=header)
         writer.writeheader()
         writer.writerows(data)
+
     print("[+] Saving data done!")
 
 
